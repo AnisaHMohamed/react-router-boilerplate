@@ -5,11 +5,7 @@ This is the starter code to create a react app with a react router!
 * [Usage](#Usage)
 * [Setup and Configuration](#setup-and-configuration)
   * [Setup](#setup)
-  * [Configuration](#configuration)
-* [Creating New Posts](#creating-new-posts)
-* [Deploying](#deploying)
-* [Changelog](#changelog)
-* [License](#license)
+
 
 ## Usage
 

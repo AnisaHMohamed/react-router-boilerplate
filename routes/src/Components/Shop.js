@@ -1,16 +1,17 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import '../App.cs';
 
-function App() {
+function Shop() {
   return (
-    <div className="App">
+    <div >
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-       <h1>App</h1>
+        <h1>Shop Page</h1>
+
       </header>
     </div>
   );
 }
 
-export default App;
+export default Shop;
