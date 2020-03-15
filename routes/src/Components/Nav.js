@@ -1,16 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import '../App.cs';
+import React from "react";
+import "../styles/App.css";
+import { Link } from "react-router-dom";
 
 function Nav() {
+  const navStyle = {
+    color:'white'
+  };
   return (
-    <div >
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Shop Page</h1>
-
-      </header>
-    </div>
+    <nav>
+      <h3>Logo</h3>
+      <ul className="nav-Links">
+        <Link  style={navStyle} to='/about'>
+          <li>About</li>
+        </Link>
+        <Link style={navStyle} to='/shop'>
+          <li>Shop</li>
+        </Link>
+      </ul>
+    </nav>
   );
 }
 

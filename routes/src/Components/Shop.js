@@ -1,15 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
-import '../App.cs';
+import '../styles/App.css'
 
 function Shop() {
   return (
-    <div >
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div>   
         <h1>Shop Page</h1>
-
-      </header>
     </div>
   );
 }
