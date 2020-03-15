@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../styles/App.css'
+import { Link } from "react-router-dom";
+
 
 function Heroes() {
   
@@ -22,8 +24,11 @@ function Heroes() {
         <h1>Super Women</h1>
         {sheroes.map( shero => (
           <div key={shero.id}>
+            <Link to={`/heroes/${shero.id}`}>
+            
           <h1>{shero.name}</h1>
-          <img src={shero.image.url} alt="Smiley face" height="42" width="42"/>
+          </Link>
+          <img src={shero.image.url} alt={shero.name} height="42" width="42"/>
 
           
           </div>
