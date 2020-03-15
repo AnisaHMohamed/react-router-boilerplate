@@ -1,5 +1,6 @@
 # react-router-boilerplate
-This is the starter code to create a react app with a react router!
+This is the starter code to create a react app with a react router that uses a Super Hero Api to get Pictures and names of superwomen!
+ENJOY!
 
 ## Contents
 * [Usage](#Usage)
