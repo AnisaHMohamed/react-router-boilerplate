@@ -23,10 +23,12 @@ ENJOY!
 
 #### 1. Create React App
 
-The first step is to create a react app called routes(or any name you choose). This can be accomplished by running the command ```npm create-react-app routes```
+The first step is to create a react app called routes(or any name you choose). This can be accomplished by running the command
+ ```npm create-react-app routes```
 
 #### 2. Install the routing Library
 
-The next step is to install the react router library. This can be accomplished by running the command ```npm i react router DOM```
+The next step is to install the react router library. This can be accomplished by running the command 
+```npm i react router DOM```
 
 
