@@ -2,8 +2,7 @@
   text-align: center;
 }
 
-
-nav{
+nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -11,7 +10,7 @@ nav{
   background-color: lightpink;
   color: white;
 }
-.nav-Links{
+.nav-Links {
   width: 50%;
   display: flex;
   justify-content: space-around;

@@ -4,19 +4,19 @@ import { Link } from "react-router-dom";
 
 function Nav() {
   const navStyle = {
-    color:'white'
+    color: "white"
   };
-  
+
   return (
     <nav>
-     <Link style={navStyle} to='/'>
-     <h3>Shero React Router BoilerPlate</h3>
-        </Link>
+      <Link style={navStyle} to="/">
+        <h3>Shero React Router BoilerPlate</h3>
+      </Link>
       <ul className="nav-Links">
-        <Link style={navStyle} to='/heroes'>
+        <Link style={navStyle} to="/heroes">
           <li>SuperWomen</li>
         </Link>
-        <Link  style={navStyle} to='/about'>
+        <Link style={navStyle} to="/about">
           <li>About</li>
         </Link>
       </ul>
